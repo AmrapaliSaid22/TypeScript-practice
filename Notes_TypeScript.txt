@@ -1,0 +1,53 @@
+**Core Types / Data Types
+
+1. Number  ---> 1, 10, 2.5 etc
+2. String  ---> 'hii' , "Hello" , `Everyone` etc
+3. Boolean ---> true or false
+
+**enum type in typescript
+1. A group of constant
+2. That can assign a number to your string and make an easy comparision
+3. enum Role {values}
+
+**Union type in typescript
+
+1. union type discribes a value that can one of several types
+
+**Literal type in typescript
+
+1.Apply Values rather than apply type to a variable or parameter
+ e.g.
+  let Data : string | number = "Hello"
+  let Data: "abc" | 123 = "abc"
+
+**Type Alias in typescript
+1.Define Type like a variable abd reuse it
+
+1. Type Alisa with variable
+2.Type Alisa with function params
+
+
+**Function type
+if function define any type of value then this is a type of that Function
+ e.g. if function return string type value the function type is string
+
+** Never type in typescript
+
+**Target Configuration
+mhanje jevha apn .ts file .js file madhe convert krto tevha ti file ECMAScript chya version nusar compalied hoti.
+it always compalied according to the the ECMAScript version
+
+we can change Target version acording to our comfort
+
+**outDir -->
+  outDir madhe jya folder cha path dilela asto tya folder madhe compaliation nanter saglya .js file moved hotat
+
+## to compalied all files at a time then go to teeminal and type "tsc --init" and again type "tsc -w" or "tsc --watch"
+it creates a tsconfig.json files
+
+**CLASS
+    1. a class is a user-defined type that discribes what a certain type of object ?
+    2. we can define property and methodes in class ?
+
+
+##  We can use OOPs concepts in ECMAScript 6 (ES6)

@@ -1,0 +1,21 @@
+
+Error : 
+tsc : File C:\Users\Rutvik\AppData\Roaming\npm\tsc.ps1 cannot be loaded because running scripts is disabled on this
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ tsc -v
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+-------------------------------------------------------------------------------------------------------------------------------
+Solution :
+
+
+Step 1 :  set-ExecutionPolicy RemoteSigned -Scope CurrentUser  (Press Enter)
+
+Step 2 :  Get-ExecutionPolicy (Press Enter)
+
+Step 3 :  Get-ExecutionPolicy -list  (Press Enter)
+
+Step 4 :  tsc -version  (Press Enter)

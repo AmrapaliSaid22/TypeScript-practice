@@ -1,0 +1,13 @@
+How can we convert more than 2 files of typescript into a JS file at a time ?
+
+Note : We cannot run typescript file directly on browser.
+       
+what is type inference ?
+
+IMP - can we define the function type is undefined ?
+
+**Void - 
+  void means nothing / blank
+
+what is difference between unknown and any ?
+  
